@@ -14,9 +14,8 @@ Build native apps for all major platforms with NativeGap.
 
 #### How it works ...
 
-1. Configure your web server to accept requests to some paths (`nativegap/android`, `nativegap/ios`, `nativegap/windows`, `nativegap/chrome`) and redirect them to your apps starting page. Use [extensions](#extensions) to simplify the process.
-2. Create and customize your apps from the [NativeGap dashboard](https://nativegap.com).
-3. Add NativeGap.js to your app in order to track currently used apps and to add some custom styling.
+1. Create and customize your apps from the [NativeGap dashboard](https://nativegap.com).
+2. Add NativeGap.js to your app in order to track currently used apps and to add some custom styling.
 
 #### Extensions
 
@@ -44,7 +43,6 @@ Getting started with NativeGap:
 
 1. Create a new NativeGap app.
 2. Wait until the platforms processed successfully.
-3. For each platform you want to support: click `Update` and enter a custom start path. The start path consists of your [NativeGap path](#options) and the platform. It could look like this: `'nativegap/android'`.
 
 That's it!
 
@@ -72,7 +70,6 @@ let nativegap = new NativeGap({ path: 'nativegap' });
 
 Global options can be set by passing the options name as a hash key of the options hash.
 
-* `path` The NativeGap path that will be used to route apps. Must be identical to the path used as `Start path` in the [NativeGap dashboard](https://nativegap.com). Takes a string. Defaults to `'nativegap'`.
 * `android` Hash of platform specific options for your Android app. Defaults to `{ scale: 1.125 }`.
 * `ios` Hash of platform specific options for your iOS app. Defaults to `{ scale: 1.125 }`.
 * `windows` Hash of platform specific options for your Universal Windows Platform (Windows 10) app. Defaults to `{ scale: 1 }`.

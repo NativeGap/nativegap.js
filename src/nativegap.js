@@ -30,7 +30,6 @@ class NativeGap {
           this.getPlatform();
 
           let defaults = {
-               path: 'nativegap',
                android: {
                     scale: 1.125
                },
@@ -68,9 +67,7 @@ class NativeGap {
      }
 
      getPlatform() {
-          this.platform(getCookie('nativegapPlatform') || 'web');
-          if ( window.location.pathname.includes(this.options.path) && NativeGap.platforms.includes(window.location.pathname.substr(this.href.lastIndexOf('/') + 1)) )
-               this.platform(window.location.pathname.substr(this.href.lastIndexOf('/') + 1));
+          this.platform(getParameterByName('nativegap') || getCookie('nativegapPlatform') || 'web');
      }
 
      scale() {
@@ -90,6 +87,16 @@ function extend() {
                if ( arguments[i].hasOwnProperty(key) )
                     arguments[0][key] = arguments[i][key];
      return arguments[0];
+}
+function getParameterByName( name, url = window.location.href ) {
+     name = name.replace( /[\[\]]/g, '\\$&' );
+     let regex = new RegExp( '[?&]' + name + '(=([^&#]*)|&|#|$)' ),
+     results = regex.exec(url);
+     if (!results)
+          return null;
+     if (!results[2])
+          return '';
+     return decodeURIComponent(results[2].replace( /\+/g, ' ' ));
 }
 function getCookie(name) {
      var value = '; ' + document.cookie;
