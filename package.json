@@ -1,0 +1,13 @@
+{
+  "name": "nativegap",
+  "version": "1.0.0",
+  "description": "Build native apps for all major platforms",
+  "main": "src/nativegap.js",
+  "bugs": {
+    "url": "https://github.com/NativeGap/nativegap.js/issues",
+    "email": "support@nativegap.com"
+  },
+  "repository": "https://github.com/NativeGap/nativegap.js",
+  "author": "NativeGap <support@nativegap.com>",
+  "license": "MIT"
+}
