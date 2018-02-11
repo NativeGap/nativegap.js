@@ -52,7 +52,7 @@ Create a new instance of the `NativeGap` class whenever a page loads:
 
 ```javascript
 import NativeGap from 'nativegap';
-document.addEventListener( 'click', () => let nativegap = new NativeGap );
+document.addEventListener( 'ready', () => let nativegap = new NativeGap );
 
 // Get the users platform
 nativegap.platform;
