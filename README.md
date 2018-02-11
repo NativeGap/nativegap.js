@@ -1,7 +1,7 @@
 # NativeGap.js
 
 ![NPM Version](https://img.shields.io/npm/v/nativegap.svg)
-<img src="https://travis-ci.org/jonhue/nativegap.js.svg?branch=master" />
+<img src="https://travis-ci.org/NativeGap/nativegap.js.svg?branch=master" />
 
 Build native apps for all major platforms with NativeGap.
 
