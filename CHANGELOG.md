@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.1 - 2018/02/24
+
+* bugfixes
+    * fixed `this.platform is not a function`
+
 ### 1.1.0 - 2018/02/09
 
 * enhancements

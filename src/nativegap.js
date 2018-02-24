@@ -67,7 +67,7 @@ class NativeGap {
      }
 
      getPlatform() {
-          this.platform(getParameterByName('nativegap') || getCookie('nativegapPlatform') || 'web');
+          this.platform = getParameterByName('nativegap') || getCookie('nativegapPlatform') || 'web';
      }
 
      scale() {
