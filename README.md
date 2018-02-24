@@ -1,7 +1,7 @@
 # NativeGap.js
 
 ![NPM Version](https://img.shields.io/npm/v/nativegap.svg)
-<img src="https://travis-ci.org/jonhue/nativegap.js.svg?branch=master" />
+<img src="https://travis-ci.org/NativeGap/nativegap.js.svg?branch=master" />
 
 Build native apps for all major platforms with NativeGap.
 
@@ -52,7 +52,7 @@ Create a new instance of the `NativeGap` class whenever a page loads:
 
 ```javascript
 import NativeGap from 'nativegap';
-document.addEventListener( 'click', () => let nativegap = new NativeGap );
+document.addEventListener( 'ready', () => let nativegap = new NativeGap );
 
 // Get the users platform
 nativegap.platform;
