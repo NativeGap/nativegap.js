@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.2 - 2018/03/19
+
+* bugfixes
+    * fixed `scale` function
+
 ### 1.1.1 - 2018/02/24
 
 * bugfixes
