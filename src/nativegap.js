@@ -1,6 +1,6 @@
 /**!
  * @fileOverview nativegap.js.js - Build native apps for all major platforms
- * @version 1.1.2
+ * @version 1.1.3
  * @license
  * MIT License
  *
@@ -71,7 +71,7 @@ class NativeGap {
      }
 
      scale() {
-          document.querySelector(':root').style.fontSize = (16 * this.options[this.platform].scale).toString() + 'px';
+          document.querySelector(':root').style.fontSize = (parseInt(window.getComputedStyle(document.querySelector('html')).getPropertyValue('font-size')) * this.options[this.platform].scale).toString() + 'px';
      }
 
      static platforms() {

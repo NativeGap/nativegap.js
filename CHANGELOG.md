@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.3 - 2018/03/20
+
+* enhancements
+    * use computed `font-size` on `html` element as base for content scaling
+
 ### 1.1.2 - 2018/03/19
 
 * bugfixes
