@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.4 - 2018/04/05
+
+* bugfixes
+    * fix content scaling
+
 ### 1.1.3 - 2018/03/20
 
 * enhancements
