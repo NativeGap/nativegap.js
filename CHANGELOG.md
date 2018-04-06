@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.5 - 2018/04/06
+
+* enhancements
+    * improve scaling ratios for Android & iOS
+
 ### 1.1.4 - 2018/04/05
 
 * bugfixes
