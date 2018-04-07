@@ -1,6 +1,6 @@
 /**!
  * @fileOverview nativegap.js.js - Build native apps for all major platforms
- * @version 1.1.4
+ * @version 1.1.7
  * @license
  * MIT License
  *
@@ -31,7 +31,7 @@ class NativeGap {
 
           let defaults = {
                android: {
-                    scale: 1.55
+                    scale: 1.4
                },
                ios: {
                     scale: 1.5

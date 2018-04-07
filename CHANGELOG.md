@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.7 - 2018/04/07
+
+* enhancements
+    * improve Android scaling ratio
+
 ### 1.1.6 - 2018/04/07
 
 * enhancements
