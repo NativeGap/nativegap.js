@@ -31,7 +31,7 @@ class NativeGap {
 
           let defaults = {
                android: {
-                    scale: 1.575
+                    scale: 1.55
                },
                ios: {
                     scale: 1.5
