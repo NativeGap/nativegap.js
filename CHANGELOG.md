@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.1.8 - 2018/04/08
+
+* enhancements
+    * improve iOS scaling ratio
+
 ### 1.1.7 - 2018/04/07
 
 * enhancements

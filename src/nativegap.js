@@ -34,7 +34,7 @@ class NativeGap {
                     scale: 1.4
                },
                ios: {
-                    scale: 1.5
+                    scale: 1
                },
                windows: {
                     scale: 1
