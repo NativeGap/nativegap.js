@@ -70,8 +70,8 @@ let nativegap = new NativeGap({ path: 'nativegap' });
 
 Global options can be set by passing the options name as a hash key of the options hash.
 
-* `android` Hash of platform specific options for your Android app. Defaults to `{ scale: 1.125 }`.
-* `ios` Hash of platform specific options for your iOS app. Defaults to `{ scale: 1.125 }`.
+* `android` Hash of platform specific options for your Android app. Defaults to `{ scale: 1.4 }`.
+* `ios` Hash of platform specific options for your iOS app. Defaults to `{ scale: 1 }`.
 * `windows` Hash of platform specific options for your Universal Windows Platform (Windows 10) app. Defaults to `{ scale: 1 }`.
 * `chrome` Hash of platform specific options for your Chrome extension. Defaults to `{ scale: 1 }`.
 
